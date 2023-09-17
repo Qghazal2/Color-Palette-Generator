@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Color Palette Generator</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Color Palette Generator</h1>
+      <input type="color" v-model="baseColor" @input="generatePalette" />
+      <div class="palette">
+        <div
+          v-for="(color, index) in palette"
+          :key="index"
+          class="color-box"
+          :style="{ backgroundColor: color }"
+          @mouseover="showColorInfo(color)"
+          @mouseleave="hideColorInfo"
+        >
+          <span v-if="hoverIndex === index">{{ colorInfo }}</span>
+        </div>
+      </div>
+      <button @click="generatePalette">Generate base color</button>
+      <button @click="generatePalettes">
+        Generate Palette of different shades of base color
+      </button>
+      <button @click="addRandomColor">Random Color</button>
+      <button @click="copyToClipboard">Copy to Clipboard</button>
+      <button @click="resetPalette">Reset Palette</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.6"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
