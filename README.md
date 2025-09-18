@@ -22,4 +22,4 @@ You can view the live demo of this project here:
 - HTML
 - CSS
 - JavaScript
--Vue JS
+- Vue JS
