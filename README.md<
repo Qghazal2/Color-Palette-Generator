@@ -1,1 +1,28 @@
-https://qghazal2.github.io/Color-Palette-Generator/
+# Color Palette Generator
+
+This is a simple color palette generator that allows you to create color schemes from random color generation or by manually selecting colors.
+
+## Live Demo
+
+You can try out the live demo of the project by clicking on the link below:
+
+[Live Demo](https://qghazal2.github.io/Color-Palette-Generator/)
+
+## Features
+
+- Generate random color palettes.
+- Customize colors and adjust brightness and saturation.
+- Copy color values to the clipboard easily.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/qghazal2/Color-Palette-Generator.git
