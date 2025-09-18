@@ -1,8 +1,8 @@
 # Color Palette Generator
 
 A simple web-based color palette generator that allows users to create random color palettes or manually adjust colors.
-![Uploading image.png…]()
 
+![Screenshot of Color Palette Generator](assets/screenshot.png)
 ## Live Demo
 
 You can view the live demo of this project here:
